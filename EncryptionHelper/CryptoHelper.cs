@@ -13,6 +13,7 @@ namespace EncryptionHelper
     {
         private const string VectorId = "w48*+-36dfthjklo";
 
+        //TODO:Use your own key
         private static readonly string KeyId = ConfigurationManager.AppSettings["EncryptionKey"] ??
                                                 "!@#$%^&*()AX826Gwkf58e?s";
         /// <summary>

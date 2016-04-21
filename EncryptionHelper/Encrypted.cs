@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace EncryptionHelper
 {
     /// <summary>
-    /// Property will be encrypted automatically
+    /// Property will be encrypted automatically when saving to Db
     /// </summary>
     public class Encrypted : ValidationAttribute
     {

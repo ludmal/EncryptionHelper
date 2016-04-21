@@ -21,7 +21,7 @@ namespace EncryptionTests
                 Name = "Ludmal de silva"
             };
 
-            Console.WriteLine(customer.Mobile);
+            Console.WriteLine(customer.Mobile.Encrypt());
         }
     }
 }
