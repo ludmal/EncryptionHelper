@@ -26,5 +26,5 @@ public class Customer
 ```javascript
 var mytext = "niceone";
 var encryptedString = mytext.Encrypt();
-var decryptedString = mytext.Decrypt();
+var decryptedString = encryptedString.Decrypt();
 ```
