@@ -1,15 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using EncryptionHelper;
 
 namespace EncryptionTests
 {
-    class Program
+    public class Customer
     {
-        static void Main(string[] args)
+        [Encrypted]
+        public string Mobile { get; set; }
+
+        public string Name { get; set; }
+    }
+
+    internal class Program
+    {
+        private static void Main(string[] args)
         {
+            var customer = new Customer
+            {
+                Mobile = "078388348",
+                Name = "Ludmal de silva"
+            };
+
+            Console.WriteLine(customer.Mobile);
         }
     }
 }
