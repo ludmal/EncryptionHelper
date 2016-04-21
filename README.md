@@ -20,3 +20,11 @@ public class Customer
         public string Name { get; set; }
     }
 ```
+
+> Extension methods to encrypt/decrypt any string value
+
+```javascript
+var mytext = "niceone";
+var encryptedString = mytext.Encrypt();
+var decryptedString = mytext.Decrypt();
+```
