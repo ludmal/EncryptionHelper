@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionHelper", "EncryptionHelper.csproj", "{4DF11D07-E7BE-4120-A9D2-BFD3DDCBD53E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0835A155-4779-4606-A3FE-1ABA8BBD2EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionTests", "..\EncryptionTests\EncryptionTests.csproj", "{FDC8D412-D8FE-4121-8DB2-A088CC774AC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{4DF11D07-E7BE-4120-A9D2-BFD3DDCBD53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF11D07-E7BE-4120-A9D2-BFD3DDCBD53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF11D07-E7BE-4120-A9D2-BFD3DDCBD53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC8D412-D8FE-4121-8DB2-A088CC774AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC8D412-D8FE-4121-8DB2-A088CC774AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC8D412-D8FE-4121-8DB2-A088CC774AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC8D412-D8FE-4121-8DB2-A088CC774AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDC8D412-D8FE-4121-8DB2-A088CC774AC6} = {0835A155-4779-4606-A3FE-1ABA8BBD2EEA}
 	EndGlobalSection
 EndGlobal
