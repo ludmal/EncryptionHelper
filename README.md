@@ -28,3 +28,12 @@ var mytext = "niceone";
 var encryptedString = mytext.Encrypt();
 var decryptedString = encryptedString.Decrypt();
 ```
+
+**Encryption Key**
+Use your own key by simply adding to config file or any other mechanism.
+```javascript
+<appSettings>
+    <add key="EncryptionKey" value="[mykey]" />
+</appSettings>
+```
+
